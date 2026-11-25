@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["src/api/**/*.ts", "src/database/**/*.ts", "src/users/**/*.ts", "test/api/**/*.ts", "test/database/**/*.ts", "test/users/**/*.ts", "prisma.config.ts"]
+}
